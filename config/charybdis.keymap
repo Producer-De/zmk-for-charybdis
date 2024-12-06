@@ -19,6 +19,11 @@
             key-positions = <17 18>;
             layers = <0>;
         };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <24 0>;
+        };
     };
 
     keymap {
