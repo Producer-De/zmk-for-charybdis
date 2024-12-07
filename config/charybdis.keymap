@@ -50,6 +50,31 @@
             bindings = <&kp MINUS>;
             key-positions = <28 33>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <28 21>;
+        };
+
+        dot {
+            bindings = <&kp DOT>;
+            key-positions = <28 45>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <28 47>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <28 46>;
+        };
+
+        underbar {
+            bindings = <&kp UNDER>;
+            key-positions = <28 30>;
+        };
     };
 
     keymap {
