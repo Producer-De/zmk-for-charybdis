@@ -68,27 +68,27 @@
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <28 46>;
+            key-positions = <46 40>;
         };
 
         underbar {
             bindings = <&kp UNDER>;
-            key-positions = <28 30>;
+            key-positions = <30 40>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <19 28>;
+            key-positions = <19 40>;
         };
 
         doublequote {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <28 18>;
+            key-positions = <18 40>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <9 28>;
+            key-positions = <9 40>;
         };
     };
 
