@@ -27,18 +27,28 @@
         };
 
         on {
-            bindings = <&ext_power EP_ON>;
+            bindings = <&ext_power EP_OFF>;
             key-positions = <0 1>;
         };
 
         off {
-            bindings = <&ext_power EP_OFF>;
+            bindings = <&ext_power EP_ON>;
             key-positions = <10 11>;
         };
 
         onoff {
             bindings = <&ext_power EP_TOG>;
             key-positions = <5 6>;
+        };
+
+        questionmark {
+            bindings = <&kp QUESTION>;
+            key-positions = <28 44>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <28 33>;
         };
     };
 
@@ -115,6 +125,17 @@
             >;
 
             trackball-bindings = <&tmv_fine>;//精准指针层
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
+            >;
         };
     };
 };
