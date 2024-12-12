@@ -90,11 +90,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <9 40>;
         };
-
-        allclear {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <0 1 2>;
-        };
     };
 
     keymap {
